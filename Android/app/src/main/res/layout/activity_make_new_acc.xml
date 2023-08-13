@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/mainBackground"
+  tools:context=".EmployView_MakeNewAccActivity">
+
+  <LinearLayout
+    android:id="@+id/linearLayout6"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvupgradeCustomer"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/upgrade"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="40sp" />
+
+    <TextView
+      android:id="@+id/tvupgradeCustomer2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="15dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/upgradePrompt"
+      android:textAlignment="center"
+      android:textColor="@color/titleFont"
+      android:textSize="15sp" />
+
+    <EditText
+      android:id="@+id/etCustomerId"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_name"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/customerID"
+      android:inputType="number"
+      android:singleLine="true"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <Button
+      android:id="@+id/bCreate"
+      style="@style/ViewButton"
+      android:layout_marginTop="30dp"
+      android:text="@string/upgradeButton" />
+
+
+  </LinearLayout>
+
+</RelativeLayout>

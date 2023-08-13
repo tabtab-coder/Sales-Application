@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/mainBackground"
+  tools:context=".AdminView_PromoteEmployeeActivity">
+
+  <LinearLayout
+    android:id="@+id/linearLayoutPromote"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvPromoteHeader"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/promoteEmpl"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="35sp" />
+
+    <EditText
+      android:id="@+id/etPromoteeId"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_name"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/employeeID"
+      android:inputType="number"
+      android:singleLine="true"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <Button
+      android:id="@+id/bPromote"
+      style="@style/ViewButton"
+      android:layout_marginTop="30dp"
+      android:text="@string/promote" />
+
+  </LinearLayout>
+
+</RelativeLayout>

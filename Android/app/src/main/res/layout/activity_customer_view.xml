@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/mainBackground"
+  android:orientation="vertical"
+  tools:context=".CustomerView">
+
+  <LinearLayout
+    android:id="@+id/lin_emp_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvHeader"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/helloUser"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="30sp" />
+
+    <TextView
+      android:id="@+id/customerViewGreeting"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="40dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/greetingsUser"
+      android:textAlignment="center"
+      android:textColor="@color/titleFont"
+      android:textSize="20sp" />
+
+    <Button
+      android:id="@+id/listItems"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/listItemsInCart" />
+
+    <Button
+      android:id="@+id/addOrRemoveItem"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/addOrRemove" />
+
+    <Button
+      android:id="@+id/viewTotal"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/viewSubtotal" />
+
+    <Button
+      android:id="@+id/viewPurchases"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/viewSalesHistory" />
+
+    <Button
+      android:id="@+id/checkout"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/checkoutButton" />
+
+    <Button
+      android:id="@+id/exitCust"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/exitButtons" />
+  </LinearLayout>
+
+</RelativeLayout>

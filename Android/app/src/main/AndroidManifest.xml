@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidlayouts">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LanguageSelectionActivity"></activity>
+        <activity android:name=".CustomerView_CheckOutActivity" />
+        <activity android:name=".CustomerView_AddRemoveItemsActivity" />
+        <activity android:name=".CustomerView_ViewSubtotalActivity" />
+        <activity android:name=".CustomerView_ViewPrevPurchasesActivity" />
+        <activity android:name=".CustomerView_ViewItemCartActivity" />
+        <activity android:name=".EmployView_RestockInventoryActivity" />
+        <activity android:name=".EmployView_MakeNewAccActivity" />
+        <activity android:name=".EmployView_MakeNewUserActivity" />
+        <activity android:name=".EmployView_AuthNewEmployActivity" />
+        <activity android:name=".AdminView_PrintActiveAccActivity" />
+        <activity android:name=".AdminView_PrintInactiveAccActivity" />
+        <activity android:name=".AdminView_ChangePriceActivity" />
+        <activity android:name=".AdminView_ViewSaleHistoryActivity" />
+        <activity android:name=".AdminView_ViewInventoryStockActivity" />
+        <activity android:name=".AdminView_PromoteEmployeeActivity" />
+        <activity android:name=".InitializationDatabaseActivity" />
+        <activity android:name=".EmployeeView" />
+        <activity android:name=".CustomerView" />
+        <activity android:name=".AdminView" />
+        <activity android:name=".LoginPromptActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.b07.store.ApplicationHelper" />
+        <activity android:name=".CustomerView_ChooseCartRestoreActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/mainBackground"
+  tools:context=".EmployView_RestockInventoryActivity">
+
+  <LinearLayout
+    android:id="@+id/linearLayoutRestock"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvRestock"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/restock"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="45sp" />
+
+    <TextView
+      android:id="@+id/tvRestock2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/restockPrompt"
+      android:textAlignment="center"
+      android:textColor="@color/titleFont"
+      android:textSize="14.5sp"></TextView>
+
+    <EditText
+      android:id="@+id/tvItemID"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_item"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/itemID"
+      android:inputType="number"
+      android:singleLine="true"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <EditText
+      android:id="@+id/tvQuantity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_quantity"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/quantity"
+      android:inputType="number"
+      android:singleLine="true"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <Button
+      android:id="@+id/bRestock"
+      style="@style/ViewButton"
+      android:layout_marginTop="35dp"
+      android:text="@string/restock" />
+
+
+  </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/mainBackground"
+  android:orientation="vertical"
+  tools:context=".CustomerView_ChooseCartRestoreActivity">
+
+  <LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/buttonOptions"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/chooseCartRestoreText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="24dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/chooseCart"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="35sp" />
+
+
+    <EditText
+      android:id="@+id/cartNumberInput"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_cart"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/hintCartNumber"
+      android:inputType="number"
+      android:textColor="@color/titleFont"
+      android:textColorHint="@color/textTint" />
+
+    <TextView
+      android:id="@+id/carts"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="vertical"
+      android:text="@string/empty"
+      android:textColor="@color/whiteText"
+      android:textSize="15sp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/buttonOptions"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+    <Button
+      android:id="@+id/cartNumberConfirm"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/round_button"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/continueConfirm"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/textTint" />
+
+    <Button
+      android:id="@+id/bExitRestoreCart"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp"
+      android:background="@drawable/round_button"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/exitButtons"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/textTint" />
+  </LinearLayout>
+</RelativeLayout>

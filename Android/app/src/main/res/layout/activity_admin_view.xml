@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/mainBackground"
+  android:orientation="vertical"
+  tools:context=".AdminView">
+
+  <LinearLayout
+    android:id="@+id/linearAV"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvHeaderAV"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/welcome"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="30sp" />
+
+    <TextView
+      android:id="@+id/tvGreetings"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/greetingsUser"
+      android:textAlignment="center"
+      android:textColor="@color/titleFont"
+      android:textSize="20sp" />
+    <Button
+      android:id="@+id/bOpt1AV"
+      style="@style/ViewButton"
+      android:text="@string/promoteEmplNoCaps" />
+
+    <Button
+      android:id="@+id/bOpt2AV"
+      style="@style/ViewButton"
+      android:text="@string/viewLevels" />
+
+    <Button
+      android:id="@+id/bOpt3AV"
+      style="@style/ViewButton"
+      android:text="@string/viewSaleHistory" />
+
+    <Button
+      android:id="@+id/bOpt4AV"
+      android:text="@string/changePriceNoCaps"
+      style="@style/ViewButton" />
+
+    <Button
+      android:id="@+id/bOpt5AV"
+      style="@style/ViewButton"
+      android:text="@string/printInactiveNoCaps" />
+
+    <Button
+      android:id="@+id/bOpt6AV"
+      style="@style/ViewButton"
+      android:text="@string/printActiveNoCaps" />
+
+    <Button
+      android:id="@+id/bSerialize"
+      style="@style/ViewButton"
+      android:text="@string/serialize" />
+
+    <Button
+      android:id="@+id/bDeserialize"
+      style="@style/ViewButton"
+      android:text="@string/deserialize" />
+  </LinearLayout>
+
+</RelativeLayout>

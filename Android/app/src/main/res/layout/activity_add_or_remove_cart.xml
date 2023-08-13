@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/mainBackground"
+  android:orientation="vertical"
+  tools:context=".CustomerView_AddRemoveItemsActivity">
+
+  <LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/selectItem"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="20dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/selectItem"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="45sp" />
+
+
+    <Spinner
+      android:id="@+id/sItemType"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:background="@color/spinner"
+      android:dropDownWidth="wrap_content"
+      android:entries="@array/itemTypes"
+      android:textColor="@color/whiteText" />
+
+    <EditText
+      android:id="@+id/etQuantity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_quantity"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/quantity"
+      android:inputType="number"
+      android:singleLine="true"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <Button
+      android:id="@+id/bAdd"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/round_button"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/add"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/textTint" />
+
+    <Button
+      android:id="@+id/bRemove"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/round_button"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/remove"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/textTint" />
+
+    <Button
+      android:id="@+id/bExitAddRem"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/round_button"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/exitButtons"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/textTint" />
+
+
+  </LinearLayout>
+
+</RelativeLayout>

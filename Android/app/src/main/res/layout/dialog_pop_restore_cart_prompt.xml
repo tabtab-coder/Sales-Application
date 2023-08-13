@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="275dp"
+  android:layout_height="250dp"
+  android:layout_gravity="center"
+  android:background="@color/popup"
+  android:orientation="vertical"
+  android:padding="5dp">
+
+  <TextView
+    android:id="@+id/restoreCartPrompt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-thin"
+    android:gravity="center"
+    android:text="@string/previousCartPrompt"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:textColor="@color/whiteText"
+    android:textSize="27sp" />
+
+  <Button
+    android:id="@+id/cartRestoreYes"
+    android:layout_width="120dp"
+    android:layout_height="35dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/pop_button"
+    android:fontFamily="sans-serif-thin"
+    android:text="@string/yes"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:textColor="@color/black"
+    android:textSize="20sp" />
+
+  <Button
+    android:id="@+id/cartRestoreNo"
+    android:layout_width="120dp"
+    android:layout_height="35dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/pop_button"
+    android:fontFamily="sans-serif-thin"
+    android:text="@string/no"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:textColor="@color/black"
+    android:textSize="20sp" />
+
+</LinearLayout>

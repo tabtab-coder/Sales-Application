@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/mainBackground"
+  tools:context=".EmployView_MakeNewUserActivity">
+
+  <LinearLayout
+    android:id="@+id/lin_user"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvHeaderUser"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="7dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/newUser"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="40sp" />
+
+    <EditText
+      android:id="@+id/etNameUser"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_person"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/name"
+      android:inputType="textPersonName"
+      android:singleLine="true"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <EditText
+      android:id="@+id/etAgeUser"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_date"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/age"
+      android:inputType="number"
+      android:singleLine="true"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <EditText
+      android:id="@+id/etAddressUser"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_address"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/address"
+      android:inputType="textPostalAddress"
+      android:singleLine="true"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <EditText
+      android:id="@+id/etPasswordUser"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_password"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/password"
+      android:inputType="textPassword"
+      android:singleLine="true"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <Button
+      android:id="@+id/bCreateUser"
+      style="@style/ViewButton"
+      android:layout_marginTop="30dp"
+      android:text="@string/create" />
+
+
+  </LinearLayout>
+
+
+</RelativeLayout>

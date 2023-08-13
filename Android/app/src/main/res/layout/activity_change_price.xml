@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/mainBackground"
+  tools:context=".AdminView_ChangePriceActivity">
+
+  <LinearLayout
+    android:id="@+id/linearLayoutChange"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/changeItemPrices"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="40dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/changePrice"
+      android:textColor="@color/titleFont"
+      android:textSize="40sp" />
+
+    <EditText
+      android:id="@+id/etItemID"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_item"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/itemID"
+      android:inputType="number"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <EditText
+      android:id="@+id/etItemPrice"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_price"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/newPrice"
+      android:inputType="number"
+      android:textColor="@color/textTint"
+      android:textColorHint="@color/textTint" />
+
+    <Button
+      android:id="@+id/bUpdatePrices"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:background="@drawable/round_button"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/update"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/textTint" />
+  </LinearLayout>
+
+</RelativeLayout>

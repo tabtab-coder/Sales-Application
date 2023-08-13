@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/mainBackground"
+  android:orientation="vertical"
+  tools:context=".InitializationDatabaseActivity">
+
+  <LinearLayout
+    android:id="@+id/lin_admin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvHeader"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="24dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/initializationHeader"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="30sp" />
+
+    <TextView
+      android:id="@+id/tvExplanationAdmin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/createAdmin"
+      android:textColor="@color/titleFont"
+      android:textSize="23sp" />
+
+    <EditText
+      android:id="@+id/etNameAdmin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_person"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/name"
+      android:inputType="textPersonName"
+      android:textColor="@color/titleFont"
+      android:textColorHint="@color/textTint" />
+
+    <EditText
+      android:id="@+id/etAgeAdmin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_date"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:inputType="number"
+      android:textColor="@color/titleFont"
+      android:textColorHint="@color/textTint"
+      android:hint="@string/age" />
+
+    <EditText
+      android:id="@+id/etAddressAdmin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_address"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:inputType="textPostalAddress"
+      android:textColor="@color/titleFont"
+      android:textColorHint="@color/textTint"
+      android:hint="@string/address" />
+
+    <EditText
+      android:id="@+id/etPasswordAdmin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_password"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:inputType="textPassword"
+      android:textColor="@color/titleFont"
+      android:textColorHint="@color/textTint"
+      android:hint="@string/password" />
+
+    <TextView
+      android:id="@+id/tvExplanationEmployee"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/createEmployee"
+      android:textColor="@color/titleFont"
+      android:textSize="23sp" />
+
+    <EditText
+      android:id="@+id/etNameEmployee"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_person"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/name"
+      android:inputType="textPersonName"
+      android:textColor="@color/titleFont"
+      android:textColorHint="@color/textTint" />
+
+    <EditText
+      android:id="@+id/etAgeEmployee"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_date"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:inputType="number"
+      android:textColor="@color/titleFont"
+      android:textColorHint="@color/textTint"
+      android:hint="@string/age"
+      android:visibility="visible" />
+
+    <EditText
+      android:id="@+id/etAddressEmployee"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_address"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:inputType="textPostalAddress"
+      android:textColor="@color/titleFont"
+      android:textColorHint="@color/textTint"
+      android:hint="@string/address" />
+
+    <EditText
+      android:id="@+id/etPasswordEmployee"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/textTint"
+      android:drawableStart="@drawable/ic_action_password"
+      android:ems="10"
+      android:fontFamily="sans-serif-thin"
+      android:hint="@string/password"
+      android:inputType="textPassword"
+      android:textColor="@color/titleFont"
+      android:textColorHint="@color/textTint" />
+
+    <Button
+      android:id="@+id/initialize"
+      style="@style/ViewButton"
+      android:layout_marginTop="30dp"
+      android:text="@string/initializeButton" />
+
+  </LinearLayout>
+
+</RelativeLayout>

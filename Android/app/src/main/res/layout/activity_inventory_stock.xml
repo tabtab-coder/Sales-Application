@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/mainBackground"
+  tools:context=".AdminView_ViewInventoryStockActivity">
+
+  <LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/invBottom"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvInventoryStock"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:fontFamily="sans-serif-thin"
+      android:paddingBottom="10dp"
+      android:text="@string/inventoryStock"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="45sp" />
+
+    <TextView
+      android:id="@+id/tvPrintInventory"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif-thin"
+      android:paddingBottom="10dp"
+      android:text="@string/printStockPrompt"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="18sp" />
+
+    <TextView
+      android:id="@+id/tvStock"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fontFamily="sans-serif-thin"
+      android:scrollbars="vertical"
+      android:text="@string/printStock"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="15sp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/invBottom"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"></LinearLayout>
+
+
+</RelativeLayout>

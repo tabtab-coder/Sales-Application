@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/mainBackground"
+  tools:context=".EmployeeView">
+
+  <LinearLayout
+    android:id="@+id/lin_emp_view"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvHeader"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/helloUser"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="30sp" />
+
+    <TextView
+      android:id="@+id/tvBellow"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="40dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/greetingsUser"
+      android:textAlignment="center"
+      android:textColor="@color/titleFont"
+      android:textSize="20sp" />
+
+    <Button
+      android:id="@+id/authEmp"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/authenticateNoCaps" />
+
+    <Button
+      android:id="@+id/makeUser"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/makeUser" />
+
+    <Button
+      android:id="@+id/makeAccount"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/makeAcc" />
+
+    <Button
+      android:id="@+id/makeEmp"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/makeEmployee" />
+
+    <Button
+      android:id="@+id/restock"
+      style="@style/ViewButton"
+      android:layout_marginBottom="20dp"
+      android:text="@string/restckInv" />
+
+  </LinearLayout>
+
+</RelativeLayout>

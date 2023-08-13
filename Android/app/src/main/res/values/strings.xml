@@ -1,0 +1,208 @@
+<resources>
+    <string name="no_connection">No internet connection! Cannot be translated!</string>
+    <string name="app_name">AndroidLayouts</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Log In</string>
+    <string name="loginPrompt">Sign in with your User ID and password</string>
+    <string-array name="userTypes">
+        <item>CUSTOMER</item>
+        <item>EMPLOYEE</item>
+        <item>ADMIN</item>
+    </string-array>
+    <string-array name="itemTypes">
+        <item>FISHING_ROD</item>
+        <item>HOCKEY_STICK</item>
+        <item>SKATES</item>
+        <item>RUNNING_SHOES</item>
+        <item>PROTEIN_BAR</item>
+    </string-array>
+    <string name="selectItem">Select Item</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="quantity">Quantity</string>
+    <string name="checkOut">Checking out</string>
+    <string name="userName">User name</string>
+    <string name="password">Password</string>
+    <string name="address">Address</string>
+    <string name="age">Age</string>
+    <string name="makeNewText">Make new</string>
+    <string name="subtotalHeader">Your subtotal is:</string>
+    <string name="printSales">Here are the sales</string>
+    <string name="subtotal">$</string>
+    <string name="checkOutHeader">Checkout</string>
+    <string name="subtotalBeforeTax">Subtotal Before Tax: </string>
+    <string name="subtotalAfterTax">Subtotal After Tax: </string>
+    <string name="authenticate">Authenticate</string>
+    <string name="employeeID">Employee ID</string>
+    <string name="create">Create</string>
+    <string name="customerID">Customer ID</string>
+    <string name="upgrade">Upgrade Customer</string>
+    <string name="upgradeButton">Upgrade</string>
+    <string name="upgradePrompt">Customer ID to get upgraded:</string>
+    <string name="name">Name</string>
+    <string name="newUser">New User</string>
+    <string name="restock">Restock</string>
+    <string name="restockPrompt">Enter the ID and quantity of the item you wish to restock</string>
+    <string name="itemID">Item ID</string>
+    <string name="promoteEmpl">Promote Employee</string>
+    <string name="promote">Promote</string>
+    <string name="promotePrompt">Enter the ID of the user you wish to promote</string>
+    <string name="inventoryStock">Inventory Stock Levels</string>
+    <string name="saleHistory">Sales History</string>
+    <string name="newPrice">New Price</string>
+    <string name="update">Update</string>
+    <string name="changePrice">Change Item Prices</string>
+    <string name="printActive">Print Active Accounts</string>
+    <string name="printInactive">Print Inactive Accounts</string>
+    <string name="activeForUser">Enter the id of the User</string>
+    <string name="print">Print</string>
+    <string name="active"> </string>
+    <string name="exitButtons">Exit</string>
+    <string name="greetingsUser">What would you like to do today?</string>
+    <string name="promoteEmplNoCaps">Promote Employee</string>
+    <string name="viewLevels">View current inventory stock levels</string>
+    <string name="viewSaleHistory">View sales history</string>
+    <string name="changePriceNoCaps">Change Item Price</string>
+    <string name="printInactiveNoCaps">Print inactive accounts of a user</string>
+    <string name="printActiveNoCaps">Print active accounts of a user</string>
+    <string name="initializeButton">Initialize</string>
+    <string name="initializationHeader">Initializaton of the database</string>
+    <string name="createAdmin">Create first Admin:</string>
+    <string name="createEmployee">Create first Employee:</string>
+    <string name="printStock"></string>
+    <string name="printStockPrompt">Here is the Inventory Stock</string>
+    <string name="checkoutButton">Check Out</string>
+    <string name="removeSmth">Remove something from the cart</string>
+    <string name="viewSubtotal">View sub-total</string>
+    <string name="addCart">Add an item to the cart</string>
+    <string name="listItemsInCart">List the current items in the cart</string>
+    <string name="helloUser">Hello, User Name.</string>
+    <string name="authenticateNoCaps">Authenticate New Employee</string>
+    <string name="makeUser">Make New User</string>
+    <string name="makeAcc">Make New Account</string>
+    <string name="makeEmployee">Make New Employee</string>
+    <string name="restckInv">Restock Inventory</string>
+    <string name="userID">User ID</string>
+    <string name="xApp">Welcome to Xapp</string>
+    <string name="start">Start</string>
+    <string name="viewSalesHistory">View previous purchases</string>
+    <string name="addOrRemove">Add or Remove an item from the cart</string>
+    <string-array name="languages">
+        <item>Afrikaans</item>
+        <item>Albanian</item>
+        <item>Amharic</item>
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>Azerbaijani</item>
+        <item>Basque</item>
+        <item>Belarusian</item>
+        <item>Bengali</item>
+        <item>Bosnian</item>
+        <item>Bulgarian</item>
+        <item>Catalan</item>
+        <item>Cebuano</item>
+        <item>Chinese_SM</item>
+        <item>Chinese_TR</item>
+        <item>Corsican</item>
+        <item>Croatian</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Esperanto</item>
+        <item>Estonian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Frisian</item>
+        <item>Galician</item>
+        <item>Georgian</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Gujarati</item>
+        <item>Haitian_Creole</item>
+        <item>Hausa</item>
+        <item>Hawaiian</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Igbo</item>
+        <item>Indonesian</item>
+        <item>Irish</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Kannada</item>
+        <item>Kazakh</item>
+        <item>Khmer</item>
+        <item>Korean</item>
+        <item>Kurdish</item>
+        <item>Kyrgyz</item>
+        <item>Lao</item>
+        <item>Latin</item>
+        <item>Latvian</item>
+        <item>Lithuanian</item>
+        <item>Luxembourgish</item>
+        <item>Macedonian</item>
+        <item>Malagasy</item>
+        <item>Malay</item>
+        <item>Malayalam</item>
+        <item>Maltese</item>
+        <item>Maori</item>
+        <item>Marathi</item>
+        <item>Mongolian</item>
+        <item>Myanmar</item>
+        <item>Nepali</item>
+        <item>Norwegian</item>
+        <item>Nyanja</item>
+        <item>Pashto</item>
+        <item>Persian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Punjabi</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Samoan</item>
+        <item>Gaelic</item>
+        <item>Serbian</item>
+        <item>Sindhi</item>
+        <item>Sinhala</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Somali</item>
+        <item>Spanish</item>
+        <item>Sundanese</item>
+        <item>Swahili</item>
+        <item>Swedish</item>
+        <item>Tajik</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Vietnamese</item>
+        <item>Welsh</item>
+        <item>Xhosa</item>
+        <item>Yiddish</item>
+        <item>Yoruba</item>
+    </string-array>
+
+    <string name="previousCartPrompt">Found previous shopping cart! Restore shopping cart?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="chooseCart">Choose cart number to restore</string>
+    <string name="empty">Empty</string>
+    <string name="hintCartNumber">Cart number</string>
+    <string name="continueConfirm">Continue</string>
+    <string name="saveCart">Save cart?</string>
+    <string name="languageSelection">Select language</string>
+    <string name="back">Back</string>
+    <string name="prevPurchases">Previous Purchase History</string>
+    <string name="restore">Restore</string>
+    <string name="delete">Delete</string>
+    <string name="setLanguage">Set language</string>
+    <string name="currentCart">Current Cart</string>
+    <string name="serialize">Serialize</string>
+    <string name="deserialize">Deserialize</string>
+    <string name="register">Register</string>
+</resources>

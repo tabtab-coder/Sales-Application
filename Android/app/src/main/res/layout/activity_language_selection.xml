@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/mainBackground"
+  tools:context=".LanguageSelectionActivity">
+
+  <LinearLayout
+    android:id="@+id/linearLayout7"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvLanguageHeader"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="70dp"
+      android:fontFamily="sans-serif-thin"
+      android:text="@string/languageSelection"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/titleFont"
+      android:textSize="30sp" />
+
+    <Spinner
+      android:id="@+id/languageSpinner"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:background="@color/spinner"
+      android:dropDownWidth="wrap_content"
+      android:entries="@array/languages" />
+
+    <Button
+      android:id="@+id/bBackLanguages"
+      style="@style/ViewButton"
+      android:layout_width="350dp"
+      android:layout_marginTop="100dp"
+      android:text="@string/setLanguage" />
+  </LinearLayout>
+
+</RelativeLayout>
